@@ -53,7 +53,7 @@
             grid-area:text;
             font-family: 'Josefin Sans', sans-serif;
             color:#ECE6F3;
-            font-size: 1.5rem;
+            font-size: 4ch;
             padding: 10px 20px;
             text-transform: capitalize;
         }
