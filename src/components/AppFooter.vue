@@ -57,6 +57,7 @@
         span{
             color: #EDE9F3;
             font-weight: 800;
+            font-family:"IBM Plex Serif", serif;
             img{
                 width:20px;
                 margin-bottom: 4px;
@@ -66,6 +67,7 @@
     .cp{
         color: #EDE9F3;
         font-weight: 800;
+        font-family:"IBM Plex Serif", serif;
     }
 }
 

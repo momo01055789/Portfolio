@@ -72,7 +72,6 @@
         img{
             width:500px;
             grid-area:img;
-            border-radius: 21px;
             outline: 7px solid #ECE6F3;
             margin-top:25px;
             margin-right:25px;
@@ -80,12 +79,13 @@
     }
         .mainb{
             text-decoration: none;
-            color: #53424C;
+            color: #614153;
             background: #ECE6F3;
-            padding: 15px 25px;
+            padding: 20px 35px;
             border-radius: 20px;
             width:max-content;
             margin: 15px 40px;
+            font-weight:700;
         }
         .mainb:hover{
             color:#ECE6F3;
@@ -107,7 +107,7 @@
             p{font-size:1rem;}
             a{font-size:1.5rem;}
         }
-    .mainb{margin:20px;}
+    .mainb{margin:20px;padding:15px 25px;}
     }
 }
 @media screen and (max-width:400px){

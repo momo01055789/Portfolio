@@ -13,7 +13,7 @@
                 </div>
         </div>
         <div class="text-box">
-            <span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span><span>fullstack developer</span>
+            <span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span><span>frontend web developer</span>
         </div>
     </div>
 </template>
@@ -44,11 +44,9 @@
           padding:0;
           margin:0;
           font-size:2rem;
-          font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-          font-family: 'IBM Plex Serif', serif;
           font-family: 'Josefin Sans', sans-serif;
           font-weight: 800;
-          }
+        }
         .nav-list{width:50%;}
         .nav-list ul{
             display:flex;
@@ -57,18 +55,32 @@
             margin-top: 1rem;
         }
         .nav-list.open{
-            background: #7A526A;
+            background: #F3F2FF;
             position: absolute;
             right: 0;
             left:0;
             top:50px;
-            width:100%;
+            width:93%;
             padding:10px 0;
             border-radius: 10px;
             opacity: 0;
-            border:2px solid #30212a;
-            margin: 35px 0;
-            li a{color:#F3F2FF}
+            border:2px solid #7A526A;
+            margin: 35px auto;
+            ul{
+                padding:0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                margin: 10px auto;
+            }
+            li{margin-bottom:10px;}
+            li a{
+                color:#7A526A;
+                padding:0 50px;
+                font-size:2ch;
+                font-weight:600;
+            }
         }
         .nav-list ul li{
             font-size:1.8rem;
@@ -76,7 +88,7 @@
         .nav-list ul li a{
             text-decoration:none;
             color:#0A0707;
-            padding: 5px 15px;
+            padding: 5px 30px;
         }
         .nav-list ul li a:hover{
             color: #F3F2FF;
@@ -159,7 +171,7 @@
         .navbar{
             .nav-list{display: none;}
             .nav-list.open{display:flex;opacity: 1;}
-            .nav-list.open ul{display:block;}
+            .nav-list.open ul{display:flex;}
             .hamburger-bttn{display: flex;}
         }
         .text-box{
