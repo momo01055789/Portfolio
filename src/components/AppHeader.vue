@@ -77,7 +77,6 @@
             li{margin-bottom:10px;font-size:2.5ch}
             li a{
                 color:#7A526A;
-                padding:0 50px;
                 font-size:2ch;
                 font-weight:600;
             }
