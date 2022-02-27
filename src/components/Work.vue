@@ -7,10 +7,10 @@
             <img src="../../public/chat.jpg" alt="">
         </div>
         <div class="work-box">
-            <h1>Momovie</h1>
-            <p>It's an application that enables the user to search for movies,shows,etc and see details about them.Created with Vuejs and laravel.</p>
-            <u><a href="https://github.com/momo01055789/Momovies.git" target="_blank">Go to Repo</a></u>
-            <img src="../../public/cinema.jpg" alt="">
+            <h1>Mo-diner</h1>
+            <p>It's responsive website that enables the user to search for recipes with their nutritional values</p>
+            <u><a href="https://mo-diner-vue.netlify.app/" target="_blank">Visit website</a></u>
+            <img src="../../public/mo-diner.jpg" alt="">
         </div>
         <div class="work-box">
             <h1>LavForum</h1>
