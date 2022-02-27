@@ -105,7 +105,6 @@
             align-items: center;
             flex-direction: column;
             position:relative;
-            border: 3px solid #7A526A;
             cursor: pointer;
             display: none;
             .btn_bar{
