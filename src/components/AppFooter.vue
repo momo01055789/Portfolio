@@ -50,13 +50,11 @@
             font-size:1rem;
             transition: color 150ms ease-out;
             width: max-content;
-            font-weight: 600;
             padding: 5px 10px;
         }
         a:hover{color:#d197ba}
         span{
             color: #EDE9F3;
-            font-weight: 800;
             font-family:"IBM Plex Serif", serif;
             img{
                 width:20px;
@@ -66,7 +64,6 @@
     }
     .cp{
         color: #EDE9F3;
-        font-weight: 800;
         font-family:"IBM Plex Serif", serif;
     }
 }

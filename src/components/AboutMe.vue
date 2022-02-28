@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:660px){
     .main-content{
         .info-box{
             h1{font-size:3.2ch;}
@@ -45,11 +45,22 @@
         }
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     .main-content{
         padding: 25px 15px;
         .info-box{
+            width: 100%;
             h1{font-size:2.6ch;}
+            p{font-size:1.8ch;line-height: 2;}
+        }
+    }
+}
+@media screen and (max-width:300px){
+    .main-content{
+        padding: 25px 15px;
+        .info-box{
+            width: 100%;
+            h1{font-size:2.6ch;text-align: center;}
             p{font-size:1.5ch;line-height: 2;}
         }
     }

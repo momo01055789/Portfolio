@@ -19,6 +19,14 @@
 </template>
 
 <script>
+    window.onload =  function() {
+        window.addEventListener('resize', function(){
+            let navbar = document.querySelector('.nav-list')
+            if (navbar.classList.contains("open")) {
+                navbar.classList.remove('open')
+            }
+        })
+    }
     export default {
         methods: {
             show() {
@@ -156,13 +164,6 @@
     100%{transform:translateX(100%);}
 }
 
-@media screen and (max-width:500px) {
-    .header{
-        .navbar{
-            h1{font-size:1.5rem;}
-        }
-    }
-}
 
 @media screen and (max-width:950px) {
     .header{
@@ -175,6 +176,24 @@
         .text-box{
             span{font-size:5ch;}
         }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        height: auto;
+        .navbar{
+            h1{font-size:1.5rem;}
+        }
+    }
+}
+@media screen and (max-width:400px) {
+    .header{
+        .navbar{
+            h1{font-size:2ch ;}
+            .hamburger-bttn{width:45px}
+        }
+        .text-box{width: 90%;}
     }
 }
 </style>

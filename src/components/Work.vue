@@ -8,13 +8,13 @@
         </div>
         <div class="work-box">
             <h1>Mo-diner</h1>
-            <p>It's responsive website that enables the user to search for recipes with their nutritional values</p>
+            <p>It's responsive website that enables the user to search for recipes with their nutritional values.</p>
             <u><a href="https://mo-diner-vue.netlify.app/" target="_blank">Visit website</a></u>
             <img src="../../public/mo-diner.jpg" alt="">
         </div>
         <div class="work-box">
             <h1>LavForum</h1>
-            <p>A website that enables the user to ask questions and reply to other questions.created with laravel and vuejs.</p>
+            <p>A website that enables the user to ask questions and reply to other questions . created with laravel and vuejs.</p>
             <u><a href="https://github.com/momo01055789/LavForum.git" target="_blank">Go to Repo</a></u>
             <img src="../../public/forum.jpg" alt="">
         </div>
@@ -53,7 +53,7 @@
             grid-area:text;
             font-family: 'Josefin Sans', sans-serif;
             color:#ECE6F3;
-            font-size: 4ch;
+            font-size: 3ch;
             padding: 10px 20px;
             text-transform: capitalize;
         }
@@ -94,7 +94,7 @@
         }
         
 }
-@media screen and (max-width:950px) {
+@media screen and (max-width:990px) {
     .work-section{
         .work-box{
             grid-template-areas: 
@@ -110,10 +110,18 @@
     .mainb{margin:20px;padding:15px 25px;}
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .work-section{
         .work-box{
-       p{width: 20ch;}
+        p{width: 100%;font-size: 1.8ch;}
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .work-section{
+        .work-box{
+            width:100vw;
+       p{width: 100%;}
     }
     }
 }
