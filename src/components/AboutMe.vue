@@ -2,7 +2,7 @@
     <div class="main-content">
         <div id="about" class="info-box">
             <h1>About me</h1>
-            <p>My name is Mohamed Elhadidy.I am an Egyptian Frontend Developer with some backend web development Background.I started coding in 2020 and i fell in love with it.To me web development isn't just about writing code and solving bugs, it also enables me to be creative.</p>
+            <p>My name is Mohamed Elhadidy.I am an Egyptian Frontend Developer with some backend web development Background.I started writing code in 2020 and i fell in love with it.To me web development isn't just about writing code and solving bugs, it also enables me to be creative.</p>
         </div>
     </div>
 </template>
