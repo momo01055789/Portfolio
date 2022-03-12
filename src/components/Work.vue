@@ -1,10 +1,10 @@
 <template>
     <div id="work" class="work-section">
         <div class="work-box">
-            <h1>ChatApp</h1>
-            <p>one to one chatting app created with laravel pusher and vuejs.</p>
-            <u><a href="https://github.com/momo01055789/ChatApp.git" target="_blank">Go to Repo</a></u>
-            <img src="../../public/chat.jpg" alt="">
+            <h1>ME-tv</h1>
+            <p>An application that allows the user to search for movies,series,etc... and see details about them.I created it with vue.js and tmdb api.</p>
+            <u><a href="https://metv-vue.netlify.app/" target="_blank">Visit website</a></u>
+            <img src="../../public/metv2.jpg" alt="">
         </div>
         <div class="work-box">
             <h1>Mo-diner</h1>
