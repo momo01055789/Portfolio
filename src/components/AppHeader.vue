@@ -42,7 +42,7 @@
 .header{
     background-color: #f3f2ff;
     border-bottom: 15px solid #7A526A;
-    height:auto;
+    height:100vh;
     .navbar{
         padding-top:15px;
         flex-wrap:nowrap;
